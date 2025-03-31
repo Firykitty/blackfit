@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackFit Academia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="haltere.png" typr="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="cabeçalho">
+            <div class="logo">BlackFit</div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#cadastro">Faça o cadastro</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Transforme Seu Corpo com a BlackFit</h1>
+            <p>O melhor em fitness e bem-estar, com equipamentos de ponta e profissionais qualificados.</p>
+            <a href="#contato" class="btn">Agende uma Aula Gratuita</a>
+        </div>
+    </section>
+    <section id="planos">
+        <h2>Nossos Planos</h2>
+        <div class="planos-container">
+            <div class="plano">
+                <h3>Plano Básico</h3>
+                <p>Ótimo para iniciantes que desejam começar a se exercitar.
+                <p><strong>✔ Área de Musculação<br>✔ Acesso ao treinamento funcional<br>✔ Funcionários
+                        capacitados</strong></p>
+                <p class="preço"><strong>R$ 99,00/mês</strong></p>
+                <a href="#contato" class="btn">Assine Agora</a>
+            </div>
+            <div class="plano">
+                <h3>Plano Intermediário</h3>
+                <p>Para quem já tem um ritmo de treino e deseja mais desafios.</p>
+                <p><strong>✔ Tudo do plano anterior<br>✔ Aula de Yoga<br>✔ Aulas de Spinning</strong></p>
+                <p class="preço"><strong>R$ 149,00/mês</strong></p>
+                <a href="#contato" class="btn">Assine Agora</a>
+            </div>
+            <div class="plano">
+                <h3>Plano Avançado</h3>
+                <p>Para os atletas que buscam o máximo desempenho.</p>
+                <p><strong>✔ Tudo do plano anterior<br>✔ Aula de natação<br>✔ 1 dose de pré treino por semana</strong>
+                </p>
+                <p class="preço"><strong>R$ 199,00/mês</strong></p>
+                <a href="#contato" class="btn">Assine Agora</a>
+            </div>
+        </div>
+    </section>
+    <main class="cabeçalho">
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Na nossa academia, oferecemos uma experiência completa para todos os perfis e objetivos. Com musculação
+                de ponta, aulas energéticas de spinning e treinamento funcional, além de yoga relaxante e natação
+                revitalizante, temos tudo o que você precisa para transformar sua saúde e bem-estar. Venha nos conhecer
+                e descubra como alcançar seus objetivos de forma eficiente e prazerosa!</p>
+        </section>
+        <section id="serviços">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <h3>Aulas de Yoga</h3>
+                <p>Relaxe e fortaleça seu corpo com nossas aulas de yoga.</p>
+            </div>
+            <div class="service">
+                <h3>Musculação</h3>
+                <p>Equipamentos modernos para um treino de musculação eficiente.</p>
+            </div>
+            <div class="service">
+                <h3>Treinamento Funcional</h3>
+                <p>Treinamentos dinâmicos para melhorar sua funcionalidade.</p>
+            </div>
+            <div class="service">
+                <h3>Aulas de Spinning</h3>
+                <p>Desafie-se com nossas intensas aulas de spinning.</p>
+            </div>
+            <div class="service">
+                <h3>Aulas de Natação</h3>
+                <p>Desafie-se com nossas intensas aulas de Natação.</p>
+            </div>
+        </section>
+    </main>
+    <form action="https://api.staticforms.xyz/submit" method="post" id="cadastro" class="cadastro">
+        <input type="hidden" name="accessKey" value="41dcc40a-daee-48ab-a2d7-0d693f5d0845">
+        <input type="hidden" name="subject" value="Contact us from - example.com" />
+        <input type="hidden" name="replyTo" value="@">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/">
+        <h4>Faça seu Cadastro</h4>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome">
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+        <br><br>
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX">
+        <br><br>
+        <input type="submit" value="Enviar" class="enviar">
+    </form>
+
+    <footer>
+        <div class="pé" id="contato">
+            <p>Email: contato@blackfit.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>Endereço: Rua Exemplo, 123 - São Paulo, SP</p>
+            <p class="final">&copy; 2024 BlackFit Academia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
